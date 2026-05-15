@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- SEO -->
+  <title>GDF Automotores | Taller de Chapa y Pintura en Buenos Aires</title>
+  <meta name="description" content="Taller de chapa y pintura en Buenos Aires. Especialistas en desabollado artesanal, sacabollos sin pintura y pintura completa. Más de 15 años de experiencia. Pedí tu presupuesto." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://gdf-automotores.vercel.app/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://gdf-automotores.vercel.app/" />
+  <meta property="og:title" content="GDF Automotores | Taller de Chapa y Pintura" />
+  <meta property="og:description" content="Especialistas en chapa, pintura y desabollado artesanal en Buenos Aires. Más de 15 años de experiencia." />
+  <meta property="og:image" content="https://gdf-automotores.vercel.app/img/og-image.jpg" />
+  <meta property="og:locale" content="es_AR" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="GDF Automotores | Chapa y Pintura" />
+  <meta name="twitter:description" content="Especialistas en chapa, pintura y desabollado artesanal en Buenos Aires." />
+
+  <!-- Fuentes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- CSS -->
+  <link rel="preload" href="css/styles.css" as="style" />
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <!-- Schema.org LocalBusiness -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AutoRepair",
+    "name": "GDF Automotores",
+    "description": "Taller de chapa y pintura especializado en desabollado artesanal, sacabollos sin pintura y pintura completa.",
+    "url": "https://gdf-automotores.vercel.app",
+    "telephone": "+54-11-XXXX-XXXX",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Dirección del taller",
+      "addressLocality": "Buenos Aires",
+      "addressCountry": "AR"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+        "opens": "08:00",
+        "closes": "18:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Saturday",
+        "opens": "08:00",
+        "closes": "13:00"
+      }
+    ],
+    "priceRange": "$$",
+    "image": "https://gdf-automotores.vercel.app/img/og-image.jpg"
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Skip link de accesibilidad -->
+  <a href="#main" class="skip-link">Saltar al contenido principal</a>
+
+  <!-- NAVBAR -->
+  <header>
+    <nav class="navbar" aria-label="Navegación principal">
+      <a href="/" class="navbar-brand" aria-label="GDF Automotores - Inicio">
+        GDF <span>Automotores</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Abrir menú de navegación" onclick="toggleMenu(this)">
+        ☰
+      </button>
+      <ul class="nav-links" id="nav-menu" role="list">
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#testimonios">Testimonios</a></li>
+        <li><a href="#contacto" class="nav-cta">Pedir presupuesto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- MAIN -->
+  <main id="main">
+
+    <!-- HERO -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-inner">
+        <div class="hero-tag" aria-hidden="true">✦ Taller especializado en Buenos Aires</div>
+        <h1 id="hero-title">
+          Chapa y Pintura<br />
+          <em>con resultado profesional</em>
+        </h1>
+        <p class="hero-desc">
+          En GDF Automotores devolvemos a tu vehículo su estado original. Desabollado artesanal, sacabollos sin pintura y pintura completa con más de 15 años de experiencia.
+        </p>
+        <div class="hero-actions">
+          <a href="https://wa.me/5491100000000?text=Hola%2C%20quiero%20un%20presupuesto" class="btn btn-primary" target="_blank" rel="noopener noreferrer" aria-label="Pedir presupuesto por WhatsApp">
+            💬 Presupuesto por WhatsApp
+          </a>
+          <a href="#contacto" class="btn btn-outline">
+            Ver más →
+          </a>
+        </div>
+        <div class="hero-stats" aria-label="Estadísticas del taller">
+          <div>
+            <div class="stat-num">15<span>+</span></div>
+            <div class="stat-label">Años de experiencia</div>
+          </div>
+          <div>
+            <div class="stat-num">500<span>+</span></div>
+            <div class="stat-label">Vehículos reparados</div>
+          </div>
+          <div>
+            <div class="stat-num">100<span>%</span></div>
+            <div class="stat-label">Garantía en trabajos</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section id="servicios" aria-labelledby="servicios-title">
+      <div class="container">
+        <p class="section-tag" aria-hidden="true">Lo que hacemos</p>
+        <h2 class="section-title" id="servicios-title">Nuestros servicios</h2>
+        <p class="section-desc">Trabajamos con todas las marcas y modelos, usando materiales de primera calidad y técnicas actualizadas.</p>
+        <div class="services-grid">
+
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">🔧</div>
+            <h3>Chapa y Pintura</h3>
+            <p>Reparación completa de abolladuras y daños en la carrocería con acabado idéntico al original de fábrica.</p>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">✋</div>
+            <h3>Desabollado Artesanal</h3>
+            <p>Técnica manual de precisión para recuperar la forma original sin necesidad de repintado, preservando la pintura de fábrica.</p>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">⚡</div>
+            <h3>Sacabollos sin Pintura</h3>
+            <p>Método PDR (Paintless Dent Repair) para eliminar abolladuras sin dañar la pintura existente, más rápido y económico.</p>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">🎨</div>
+            <h3>Pintura Completa</h3>
+            <p>Repintado total o parcial del vehículo con pintura automotriz de alta calidad, con igualación perfecta de color.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- GALERÍA -->
+    <section id="galeria" aria-labelledby="galeria-title">
+      <div class="container">
+        <p class="section-tag" aria-hidden="true">Nuestros trabajos</p>
+        <h2 class="section-title" id="galeria-title">Antes y después</h2>
+        <p class="section-desc">Resultados reales de trabajos realizados en nuestro taller. Cada reparación con garantía total.</p>
+        <div class="gallery-grid">
+
+          <figure class="gallery-item">
+            <img
+              src="img/trabajo-1.webp"
+              alt="Reparación de abolladura lateral en puerta de automóvil - resultado final"
+              width="560"
+              height="420"
+              loading="lazy"
+            />
+            <figcaption class="gallery-label">Desabollado puerta lateral</figcaption>
+          </figure>
+
+          <figure class="gallery-item">
+            <img
+              src="img/trabajo-2.webp"
+              alt="Pintura completa de capot dañado por granizo - acabado brillante"
+              width="560"
+              height="420"
+              loading="lazy"
+            />
+            <figcaption class="gallery-label">Pintura capot por granizo</figcaption>
+          </figure>
+
+          <figure class="gallery-item">
+            <img
+              src="img/trabajo-3.webp"
+              alt="Chapa y pintura de parachoque trasero dañado por golpe"
+              width="560"
+              height="420"
+              loading="lazy"
+            />
+            <figcaption class="gallery-label">Chapa y pintura parachoque</figcaption>
+          </figure>
+
+          <figure class="gallery-item">
+            <img
+              src="img/trabajo-4.webp"
+              alt="Sacabollos sin pintura en techo de vehículo con múltiples impactos de granizo"
+              width="560"
+              height="420"
+              loading="lazy"
+            />
+            <figcaption class="gallery-label">PDR granizo en techo</figcaption>
+          </figure>
+
+          <figure class="gallery-item">
+            <img
+              src="img/trabajo-5.webp"
+              alt="Reparación de rayones profundos en lateral de auto y repintado"
+              width="560"
+              height="420"
+              loading="lazy"
+            />
+            <figcaption class="gallery-label">Reparación rayones lateral</figcaption>
+          </figure>
+
+          <figure class="gallery-item">
+            <img
+              src="img/trabajo-6.webp"
+              alt="Pintura completa de vehículo con cambio de color - azul metalizado"
+              width="560"
+              height="420"
+              loading="lazy"
+            />
+            <figcaption class="gallery-label">Cambio de color completo</figcaption>
+          </figure>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIOS -->
+    <section id="testimonios" aria-labelledby="testimonios-title">
+      <div class="container">
+        <p class="section-tag" aria-hidden="true">Lo que dicen nuestros clientes</p>
+        <h2 class="section-title" id="testimonios-title">Opiniones reales</h2>
+        <p class="section-desc">Más de 500 clientes satisfechos avalan nuestro trabajo.</p>
+        <div class="testimonials-grid">
+
+          <article class="testimonial-card">
+            <div class="stars" aria-label="5 estrellas">★★★★★</div>
+            <blockquote class="testimonial-text">
+              "Llevé el auto después de un choque lateral y quedó como nuevo. El equipo fue muy profesional y me explicó todo el proceso. Totalmente recomendado."
+            </blockquote>
+            <footer>
+              <div class="testimonial-author">Martín R.</div>
+              <div class="testimonial-detail">Chapa y pintura — Toyota Corolla</div>
+            </footer>
+          </article>
+
+          <article class="testimonial-card">
+            <div class="stars" aria-label="5 estrellas">★★★★★</div>
+            <blockquote class="testimonial-text">
+              "El granizo me dejó el techo y capot llenos de abolladuras. Con el método PDR lo dejaron impecable sin tocar la pintura. Excelente trabajo y muy buen precio."
+            </blockquote>
+            <footer>
+              <div class="testimonial-author">Laura G.</div>
+              <div class="testimonial-detail">Sacabollos PDR — Volkswagen Vento</div>
+            </footer>
+          </article>
+
+          <article class="testimonial-card">
+            <div class="stars" aria-label="5 estrellas">★★★★★</div>
+            <blockquote class="testimonial-text">
+              "Rapidez, calidad y honestidad. Me dieron el presupuesto exacto, sin sorpresas. El auto quedó mejor que antes. Ya recomendé el taller a varios conocidos."
+            </blockquote>
+            <footer>
+              <div class="testimonial-author">Carlos M.</div>
+              <div class="testimonial-detail">Pintura completa — Ford Focus</div>
+            </footer>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" aria-labelledby="contacto-title">
+      <div class="container">
+        <p class="section-tag" aria-hidden="true">Contacto</p>
+        <h2 class="section-title" id="contacto-title">Pedí tu presupuesto</h2>
+        <p class="section-desc">Completá el formulario o contactanos directamente. Respondemos en menos de 24 horas.</p>
+
+        <div class="contact-grid">
+
+          <div class="contact-info">
+            <h3>Información del taller</h3>
+
+            <div class="contact-item">
+              <div class="contact-item-icon" aria-hidden="true">📍</div>
+              <div>
+                <div class="contact-item-label">Dirección</div>
+                <div class="contact-item-value">Buenos Aires, Argentina</div>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-item-icon" aria-hidden="true">📞</div>
+              <div>
+                <div class="contact-item-label">Teléfono</div>
+                <div class="contact-item-value">
+                  <a href="tel:+541100000000">+54 11 XXXX-XXXX</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-item-icon" aria-hidden="true">💬</div>
+              <div>
+                <div class="contact-item-label">WhatsApp</div>
+                <div class="contact-item-value">
+                  <a href="https://wa.me/5491100000000?text=Hola%2C%20quiero%20un%20presupuesto" target="_blank" rel="noopener noreferrer">Escribinos por WhatsApp</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-item-icon" aria-hidden="true">🕐</div>
+              <div>
+                <div class="contact-item-label">Horarios</div>
+                <div class="contact-item-value">Lun–Vie: 8:00–18:00 · Sáb: 8:00–13:00</div>
+              </div>
+            </div>
+
+            <div class="map-container">
+              <iframe
+                title="Ubicación de GDF Automotores en Google Maps"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.0!2d-58.4!3d-34.6!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzTCsDM2JzAuMCJTIDU4wrAyNCcwLjAiVw!5e0!3m2!1ses!2sar!4v1"
+                loading="lazy"
+                allowfullscreen
+                referrerpolicy="no-referrer-when-downgrade"
+                aria-label="Mapa con la ubicación del taller GDF Automotores"
+              ></iframe>
+            </div>
+          </div>
+
+          <div class="contact-form">
+            <h3>Envianos un mensaje</h3>
+            <form action="https://formspree.io/f/xojroeyj" method="POST" novalidate aria-label="Formulario de contacto GDF Automotores">
+
+              <div class="form-group">
+                <label for="nombre">Tu nombre completo</label>
+                <input
+                  type="text"
+                  id="nombre"
+                  name="nombre"
+                  placeholder="Juan García"
+                  required
+                  autocomplete="name"
+                  aria-required="true"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email de contacto</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="juan@email.com"
+                  required
+                  autocomplete="email"
+                  aria-required="true"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="telefono">Teléfono <span style="font-weight:400;color:#6c757d">(opcional)</span></label>
+                <input
+                  type="tel"
+                  id="telefono"
+                  name="telefono"
+                  placeholder="+54 11 XXXX-XXXX"
+                  autocomplete="tel"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="servicio">Servicio que necesitás</label>
+                <select id="servicio" name="servicio" required aria-required="true">
+                  <option value="" disabled selected>Seleccioná un servicio</option>
+                  <option value="chapa-pintura">Chapa y Pintura</option>
+                  <option value="desabollado">Desabollado Artesanal</option>
+                  <option value="sacabollos">Sacabollos sin Pintura (PDR)</option>
+                  <option value="pintura-completa">Pintura Completa</option>
+                  <option value="otro">Otro / No sé</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="mensaje">Contanos el daño de tu vehículo</label>
+                <textarea
+                  id="mensaje"
+                  name="mensaje"
+                  placeholder="Ej: Tengo una abolladura en la puerta del conductor por un golpe en el estacionamiento..."
+                  required
+                  aria-required="true"
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn-form">
+                Enviar mensaje →
+              </button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">GDF <span>Automotores</span></div>
+      <p class="footer-text">
+        Taller de chapa y pintura en Buenos Aires.<br />
+        Especialistas en desabollado artesanal y sacabollos sin pintura.
+      </p>
+      <p class="footer-copy">© 2026 GDF Automotores. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script defer>
+    function toggleMenu(btn) {
+      const menu = document.getElementById('nav-menu');
+      const open = menu.classList.toggle('open');
+      btn.setAttribute('aria-expanded', open);
+      btn.textContent = open ? '✕' : '☰';
+    }
+
+    // Cerrar menú al hacer clic en un link
+    document.querySelectorAll('.nav-links a').forEach(link => {
+      link.addEventListener('click', () => {
+        document.getElementById('nav-menu').classList.remove('open');
+        document.querySelector('.nav-toggle').setAttribute('aria-expanded', 'false');
+        document.querySelector('.nav-toggle').textContent = '☰';
+      });
+    });
+  </script>
+
+</body>
+</html>
