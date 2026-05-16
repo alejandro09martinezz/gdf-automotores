@@ -252,7 +252,7 @@ section { padding: 80px 24px; }
 }
 
 /* ── SERVICIOS ── */
-#servicios { background: var(--white); }
+#servicios { background: #eef0f3; }
 
 .services-grid {
   display: grid;
@@ -261,7 +261,7 @@ section { padding: 80px 24px; }
 }
 
 .service-card {
-  background: var(--bg);
+  background: var(--white);
   border-radius: var(--radius);
   padding: 28px 24px;
   border: 1.5px solid var(--border);
